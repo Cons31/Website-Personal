@@ -1,0 +1,36 @@
+.app-container {
+  text-align: center;
+  padding: 30px;
+  background: #7cd3df;
+  color: #0e010b;
+  min-height: 100vh;
+}
+
+.cart-toggle {
+  background: #1c02ff;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+.btn-custom {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  min-width: 150px;   /* semua tombol lebarnya sama */
+  cursor: pointer;
+}
+.btn-logout {
+  background: red;
+  color: white;
+}
+
+.btn-cart {
+  background: #1c02ff;
+  color: white;
+}

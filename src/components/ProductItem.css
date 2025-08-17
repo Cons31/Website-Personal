@@ -1,0 +1,64 @@
+.product-card {
+  background: rgb(8, 235, 216);
+  color: black;
+  width: 300px;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 460px; /* pastikan tinggi seragam */
+}
+
+.product-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.product-card h3 {
+  margin: 12px 0 8px;
+  font-size: 1rem;
+}
+
+.product-card p {
+  flex-grow: 1; /* deskripsi mengambil ruang sisa */
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.product-card a {
+  display: inline;
+  margin: 0;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.read-more-btn {
+  background: none;
+  border: none;
+  color: #ff0000;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding-left: 4px;
+}
+
+.read-more-btn:hover {
+  text-decoration: underline;
+}
+
+.add-btn {
+  background: #0846f1;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 12px;
+}
